@@ -64,6 +64,21 @@ padding-top: 20px;
   color: rgba(var(--main));
 }
 
+.floralStory-body b
+{color: rgba(var(--main), 0.8)}
+
+.floralStory-body i
+{
+   font-weight: bold;
+    position: relative;
+    text-decoration: none;
+     background: linear-gradient(130deg, rgba(var(--main), 0.5) 41.07%, rgba(var(--accent), 0.5) 76.05%);
+  background-position: 0 100%;
+  background-size: 100% 2px;
+  padding-bottom: 2px;
+  background-repeat: repeat-x;}
+    
+
 .floralStory-notes
 
 {font-size: 11px;
