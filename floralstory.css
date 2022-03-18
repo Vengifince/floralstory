@@ -1,0 +1,94 @@
+
+.floralStory-container {
+margin: 20px auto;
+padding: 20px;
+padding-bottom: 60px;
+width: 470px;
+background: rgba(var(--main));
+border-radius: 10px;
+border-style: solid;
+border-color: #d6d6d6;
+border-width: 1px;
+outline: solid;
+outline-width: 3px;
+outline-offset: -40px;
+outline-color: rgba(var(--accent));
+}
+
+.floralStory-iconbg
+{
+  background: rgba(var(--accent),0.7);
+  width: 70px;
+  height: 70px;
+  transform: rotate(45deg);
+  outline: solid;
+  outline-width: 3px;
+  outline-offset: 5px;
+  outline-color: rgba(var(--accent));
+  position: relative;
+  margin-left: 200px;
+  margin-top: 10px;
+}
+
+.floralStory-icon 
+{position: absolute;
+margin-left: 210px;
+margin-top: 20px;
+  z-index: 2;
+  font-size: 45px;
+  color: rgba(var(--main));
+}
+
+.floralStory-body
+
+{margin-left: 40px;
+margin-top: -30px;
+width: 310px;
+padding: 40px;
+padding-top: 20px;
+  min-height: 200px;
+  background: #f2f2f2;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 25px;
+  color: #444444;
+  
+  text-align: justify;
+}
+
+.floralStory-body h1
+
+{font-family: 'Arima Madurai', cursive;
+  color: rgba(var(--main));
+}
+
+.floralStory-notes
+
+{font-size: 11px;
+  font-weight: 300;
+}
+
+.floralStory-notes a
+
+{text-decoration: none;
+  color: rgba(var(--main));
+  font-weight: 600;
+  background: rgba(var(--accent),0.3);
+  padding: 4px;
+  border-radius: 10px;
+  transition: 0.5s;
+font-family: 'Arima Madurai', cursive;
+}
+
+.floralStory-notes a:hover {font-size: 130%;
+  transition: 0.5s;
+}
+
+.floralStory-notes hr
+{height: 1px;
+background-color: rgba(var(--main));
+margin: 30px;
+border: none;
+}
